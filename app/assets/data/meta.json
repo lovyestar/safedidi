@@ -1,0 +1,44 @@
+{
+  "generatedAt": "2026-11-23T12:41:00.698070",
+  "region": "부산광역시",
+  "facilities": {
+    "points": 76827,
+    "lights": 73240,
+    "cctvs": 21053,
+    "bells": 203
+  },
+  "filtered": {
+    "carOnlyLights": 163,
+    "carOnlyLightUnits": 163
+  },
+  "graph": {
+    "nodes": 286661,
+    "roadNames": 6020,
+    "directedEdges": 624622,
+    "roadKm": 8396,
+    "darkRatio": 0.552,
+    "osmTimestamp": "2026-11-22T15:35:36Z"
+  },
+  "sources": [
+    {
+      "name": "전국보안등정보표준데이터(부산 16개 구·군)",
+      "provider": "공공데이터포털 data.go.kr",
+      "license": "이용허락범위 제한 없음"
+    },
+    {
+      "name": "부산광역시_방범용 CCTV 정보_20251229",
+      "provider": "부산광역시 (data.go.kr)",
+      "license": "이용허락범위 제한 없음"
+    },
+    {
+      "name": "전국안전비상벨위치표준데이터",
+      "provider": "공공데이터포털 data.go.kr",
+      "license": "이용허락범위 제한 없음"
+    },
+    {
+      "name": "OpenStreetMap 도로망·고속도로",
+      "provider": "© OpenStreetMap contributors",
+      "license": "ODbL 1.0"
+    }
+  ]
+}

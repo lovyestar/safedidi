@@ -1,0 +1,18 @@
+# 원본 다운로드(용량 큼, tools/preprocess/README.md 참고)
+rawdata/
+
+# 이전 버전(Kotlin 앱·FastAPI 서버) — 저장소에서 제외
+/android/
+/backend/
+
+# IDE·빌드
+.idea/
+.dart_tool/
+build/
+*.iml
+.DS_Store
+
+# 키·로컬 설정
+**/keys.json
+**/.env
+**/local.properties

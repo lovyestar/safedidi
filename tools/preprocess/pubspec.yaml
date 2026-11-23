@@ -1,0 +1,13 @@
+name: preprocess
+description: 안심디디 데이터 전처리 — 공공데이터 CSV·OSM 도로망을 앱 내장 바이너리로 변환
+version: 1.0.0
+publish_to: none
+
+environment:
+  sdk: ^3.12.2
+
+dependencies:
+  ansim_core:
+    path: ../../packages/ansim_core
+dev_dependencies:
+  lints: ^6.0.0
